@@ -18,10 +18,15 @@ public class Calculadora {
 	public int suma(){
 		return this.numero1+this.numero2;
 		
-		
+	}
+	public int resta(){
+		return this.numero1-this.numero2;
 	}
 	public double division (){
 		return(double)this.numero1/this.numero2;
+	}
+	public int multiplicacion(){
+		return this.numero1*this.numero2;
 	}
 
 }
